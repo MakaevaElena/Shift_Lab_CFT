@@ -23,7 +23,7 @@ form {
 }
 
 .searched {
-    background-color: #f04747;
+    background-color: #f04747 !important;
     color: white;
 }
 
@@ -61,7 +61,7 @@ span {
     font-weight: bold;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 420px) {
     .table {
         flex-direction: column;
         align-items: center;

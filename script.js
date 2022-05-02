@@ -1,6 +1,7 @@
 const form = document.querySelector('#search-form');
 const result = document.querySelector('.result');
 const column1 = document.querySelectorAll('.column1');
+
 let message = "";
 
 const findInTable = () => {
