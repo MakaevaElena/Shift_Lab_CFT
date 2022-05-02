@@ -1,4 +1,4 @@
-const btn = document.querySelector('.btn');
+const form = document.querySelector('#search-form');
 const result = document.querySelector('.result');
 const column1 = document.querySelectorAll('.column1');
 let message = "";
@@ -29,8 +29,8 @@ const findInTable = () => {
     result.appendChild(message);
 };
 
-btn.addEventListener('click', (event) => {
-    event.preventDefault;
+form.addEventListener('submit', (event) => {
+    event.preventDefault();
     result.innerHTML = "";
     column1.forEach(el => el.classList.remove('searched'));
     findInTable();
