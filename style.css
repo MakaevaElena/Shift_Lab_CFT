@@ -53,7 +53,7 @@ span {
     padding: 0.625em;
     border: 0.0625em solid rgba(101, 101, 101, 0.5);
     border-radius: 0.125em;
-
+    cursor: pointer;
 }
 
 .column div:hover {
